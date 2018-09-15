@@ -4,16 +4,16 @@
 */
 
 function analyseWord(word){
-  lengthWord = word.length
+  lengthWord = word.length;
   if (lengthWord < 6){
-    return 'Palavra Inválida'
+    return 'Palavra Inválida';
   }else{
     first3caracteres = word.slice(0,3);
-    last3caracteres = word.slice(lengthWord - 3, lengthWord)
+    last3caracteres = word.slice(lengthWord - 3, lengthWord);
     if (first3caracteres === last3caracteres){
-      return 'Os três primeiros caracteres são iguais aos três últimos'
+      return 'Os três primeiros caracteres são iguais aos três últimos';
     }else{
-      return 'Os três primeiros caracteres não são iguais aos três últimos'
+      return 'Os três primeiros caracteres não são iguais aos três últimos';
     }
 }
 }

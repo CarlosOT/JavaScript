@@ -2,11 +2,11 @@
 
 function retornaMaior(a, b){
   if(a > b){
-    return alert(a)
+    return alert(a);
   } else if(b > a){
-    return alert(b)
+    return alert(b);
   }else{
-    return alert('Iguais')
+    return alert('Iguais');
   }
 }
 

@@ -5,8 +5,8 @@ function Palindrome(palavra){
   var reverseArray = splitString.reverse();
   var joinArray = reverseArray.join("");
   if (joinArray === palavra){
-    return alert("É palidrome")
+    return alert("É palidrome");
   }else{
-    return alert("Não é palidrome")
+    return alert("Não é palidrome");
   }
 }
