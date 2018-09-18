@@ -1,4 +1,4 @@
-//8) Construa uma função que verifica quantos A's (caixa alta e baixa) existem em uma palavra.
+//8) Construa uma função que verifica quantos A's  (caixa alta e baixa) existem em uma palavra.
 
 function countOcurrences(string){
   var counter1 = (string.match(/A/g) || []).length;
