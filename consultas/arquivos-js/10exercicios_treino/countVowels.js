@@ -10,7 +10,7 @@ function countVowels(palavra){
     }
   }
   if (counter > 1){
-    return alert(`Essa palavra tem ${counter} vogais`);
+    return alert(`Essa palavra tem ${counter} vogais `);
   }else if (counter == 1){
     return alert(`Essa palavra tem uma vogal apenas`);
   }else{
