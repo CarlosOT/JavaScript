@@ -1,6 +1,6 @@
 /*
 3) Receba uma palavra e determine se os três primeiros caracteres desta palavra são iguais aos três últimos.
-(palavra deve terno mínimo 6 caracteres. Se tiver menos retorne "Palavra Inválida".)
+(palavra deve terno mínimo 6 caracteres. Se tiver menos  retorne "Palavra Inválida".)
 */
 
 function analyseWord(word){
