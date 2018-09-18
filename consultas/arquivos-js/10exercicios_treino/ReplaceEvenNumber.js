@@ -1,4 +1,4 @@
-//7) Construa uma função que substitua todos os números pares de um arranjo pelo valor 1.**
+//7) Construa uma função que substitua todos os números pares  de um arranjo pelo valor 1.**
 function ReplaceEvenNumber(array){
   for(i = 0; i < array.length; i++){
     alert(array);
